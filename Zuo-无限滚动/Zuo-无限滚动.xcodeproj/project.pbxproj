@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3F54691B5E76BC0026629B /* ylm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F54681B5E76BC0026629B /* ylm.m */; };
 		A39B5FAD1B5E2D3700E2F997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39B5FAB1B5E2D3700E2F997 /* Main.storyboard */; };
 		A39B5FAF1B5E2D3700E2F997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39B5FAE1B5E2D3700E2F997 /* Images.xcassets */; };
 		A39B5FB21B5E2D3700E2F997 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39B5FB01B5E2D3700E2F997 /* LaunchScreen.xib */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D3F54671B5E76BC0026629B /* ylm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ylm.h; sourceTree = "<group>"; };
+		5D3F54681B5E76BC0026629B /* ylm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ylm.m; sourceTree = "<group>"; };
 		A39B5F9E1B5E2D3700E2F997 /* Zuo-无限滚动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zuo-无限滚动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39B5FA21B5E2D3700E2F997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A39B5FAC1B5E2D3700E2F997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 				A39B5FDF1B5E2D9700E2F997 /* model */,
 				A39B5FE21B5E2D9700E2F997 /* other */,
 				A39B5FE81B5E2D9700E2F997 /* view */,
+				5D3F54671B5E76BC0026629B /* ylm.h */,
+				5D3F54681B5E76BC0026629B /* ylm.m */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 			files = (
 				A39B5FEB1B5E2D9700E2F997 /* ZXRNewsViewController.m in Sources */,
 				A39B5FF41B5E2D9700E2F997 /* NSString+MJExtension.m in Sources */,
+				5D3F54691B5E76BC0026629B /* ylm.m in Sources */,
 				A39B5FEF1B5E2D9700E2F997 /* MJProperty.m in Sources */,
 				A39B5FEC1B5E2D9700E2F997 /* ZXRViewController.m in Sources */,
 				A39B5FED1B5E2D9700E2F997 /* MJConst.m in Sources */,
@@ -542,6 +548,7 @@
 				A39B5FC31B5E2D3800E2F997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A39B5FC41B5E2D3800E2F997 /* Build configuration list for PBXNativeTarget "Zuo-无限滚动Tests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +557,7 @@
 				A39B5FC61B5E2D3800E2F997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
