@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39B5FAD1B5E2D3700E2F997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39B5FAB1B5E2D3700E2F997 /* Main.storyboard */; };
+		A39B5FAF1B5E2D3700E2F997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39B5FAE1B5E2D3700E2F997 /* Images.xcassets */; };
+		A39B5FB21B5E2D3700E2F997 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39B5FB01B5E2D3700E2F997 /* LaunchScreen.xib */; };
+		A39B5FBE1B5E2D3800E2F997 /* Zuo_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FBD1B5E2D3800E2F997 /* Zuo_____Tests.m */; };
+		A39B5FEB1B5E2D9700E2F997 /* ZXRNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FCA1B5E2D9700E2F997 /* ZXRNewsViewController.m */; };
+		A39B5FEC1B5E2D9700E2F997 /* ZXRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FCC1B5E2D9700E2F997 /* ZXRViewController.m */; };
+		A39B5FED1B5E2D9700E2F997 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FCF1B5E2D9700E2F997 /* MJConst.m */; };
+		A39B5FEE1B5E2D9700E2F997 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FD21B5E2D9700E2F997 /* MJFoundation.m */; };
+		A39B5FEF1B5E2D9700E2F997 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FD41B5E2D9700E2F997 /* MJProperty.m */; };
+		A39B5FF01B5E2D9700E2F997 /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FD61B5E2D9700E2F997 /* MJType.m */; };
+		A39B5FF11B5E2D9700E2F997 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FD81B5E2D9700E2F997 /* NSObject+MJCoding.m */; };
+		A39B5FF21B5E2D9700E2F997 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FDA1B5E2D9700E2F997 /* NSObject+MJKeyValue.m */; };
+		A39B5FF31B5E2D9700E2F997 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FDC1B5E2D9700E2F997 /* NSObject+MJProperty.m */; };
+		A39B5FF41B5E2D9700E2F997 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FDE1B5E2D9700E2F997 /* NSString+MJExtension.m */; };
+		A39B5FF51B5E2D9700E2F997 /* ZXRNews.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FE11B5E2D9700E2F997 /* ZXRNews.m */; };
+		A39B5FF61B5E2D9700E2F997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FE41B5E2D9700E2F997 /* AppDelegate.m */; };
+		A39B5FF71B5E2D9700E2F997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FE51B5E2D9700E2F997 /* main.m */; };
+		A39B5FF81B5E2D9700E2F997 /* UIView+ZXRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FE71B5E2D9700E2F997 /* UIView+ZXRExtension.m */; };
+		A39B5FF91B5E2D9700E2F997 /* ZXRCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B5FEA1B5E2D9700E2F997 /* ZXRCollectionViewCell.m */; };
+		A39B5FFB1B5E2DCD00E2F997 /* newses.plist in Resources */ = {isa = PBXBuildFile; fileRef = A39B5FFA1B5E2DCD00E2F997 /* newses.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A39B5FB81B5E2D3700E2F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A39B5F961B5E2D3700E2F997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A39B5F9D1B5E2D3700E2F997;
+			remoteInfo = "Zuo-无限滚动";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A39B5F9E1B5E2D3700E2F997 /* Zuo-无限滚动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zuo-无限滚动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39B5FA21B5E2D3700E2F997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39B5FAC1B5E2D3700E2F997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A39B5FAE1B5E2D3700E2F997 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A39B5FB11B5E2D3700E2F997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A39B5FB71B5E2D3700E2F997 /* Zuo-无限滚动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zuo-无限滚动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39B5FBC1B5E2D3800E2F997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39B5FBD1B5E2D3800E2F997 /* Zuo_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Zuo_____Tests.m"; sourceTree = "<group>"; };
+		A39B5FC91B5E2D9700E2F997 /* ZXRNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRNewsViewController.h; sourceTree = "<group>"; };
+		A39B5FCA1B5E2D9700E2F997 /* ZXRNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRNewsViewController.m; sourceTree = "<group>"; };
+		A39B5FCB1B5E2D9700E2F997 /* ZXRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRViewController.h; sourceTree = "<group>"; };
+		A39B5FCC1B5E2D9700E2F997 /* ZXRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRViewController.m; sourceTree = "<group>"; };
+		A39B5FCE1B5E2D9700E2F997 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		A39B5FCF1B5E2D9700E2F997 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		A39B5FD01B5E2D9700E2F997 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		A39B5FD11B5E2D9700E2F997 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		A39B5FD21B5E2D9700E2F997 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		A39B5FD31B5E2D9700E2F997 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		A39B5FD41B5E2D9700E2F997 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		A39B5FD51B5E2D9700E2F997 /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		A39B5FD61B5E2D9700E2F997 /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		A39B5FD71B5E2D9700E2F997 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		A39B5FD81B5E2D9700E2F997 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		A39B5FD91B5E2D9700E2F997 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		A39B5FDA1B5E2D9700E2F997 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		A39B5FDB1B5E2D9700E2F997 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		A39B5FDC1B5E2D9700E2F997 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		A39B5FDD1B5E2D9700E2F997 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		A39B5FDE1B5E2D9700E2F997 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		A39B5FE01B5E2D9700E2F997 /* ZXRNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRNews.h; sourceTree = "<group>"; };
+		A39B5FE11B5E2D9700E2F997 /* ZXRNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRNews.m; sourceTree = "<group>"; };
+		A39B5FE31B5E2D9700E2F997 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A39B5FE41B5E2D9700E2F997 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A39B5FE51B5E2D9700E2F997 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A39B5FE61B5E2D9700E2F997 /* UIView+ZXRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXRExtension.h"; sourceTree = "<group>"; };
+		A39B5FE71B5E2D9700E2F997 /* UIView+ZXRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXRExtension.m"; sourceTree = "<group>"; };
+		A39B5FE91B5E2D9700E2F997 /* ZXRCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRCollectionViewCell.h; sourceTree = "<group>"; };
+		A39B5FEA1B5E2D9700E2F997 /* ZXRCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRCollectionViewCell.m; sourceTree = "<group>"; };
+		A39B5FFA1B5E2DCD00E2F997 /* newses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = newses.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39B5F9B1B5E2D3700E2F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39B5FB41B5E2D3700E2F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A39B5F951B5E2D3700E2F997 = {
+			isa = PBXGroup;
+			children = (
+				A39B5FA01B5E2D3700E2F997 /* Zuo-无限滚动 */,
+				A39B5FBA1B5E2D3700E2F997 /* Zuo-无限滚动Tests */,
+				A39B5F9F1B5E2D3700E2F997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39B5F9F1B5E2D3700E2F997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5F9E1B5E2D3700E2F997 /* Zuo-无限滚动.app */,
+				A39B5FB71B5E2D3700E2F997 /* Zuo-无限滚动Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39B5FA01B5E2D3700E2F997 /* Zuo-无限滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FC71B5E2D9700E2F997 /* class */,
+				A39B5FA11B5E2D3700E2F997 /* Supporting Files */,
+			);
+			path = "Zuo-无限滚动";
+			sourceTree = "<group>";
+		};
+		A39B5FA11B5E2D3700E2F997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FFA1B5E2DCD00E2F997 /* newses.plist */,
+				A39B5FAB1B5E2D3700E2F997 /* Main.storyboard */,
+				A39B5FAE1B5E2D3700E2F997 /* Images.xcassets */,
+				A39B5FB01B5E2D3700E2F997 /* LaunchScreen.xib */,
+				A39B5FA21B5E2D3700E2F997 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39B5FBA1B5E2D3700E2F997 /* Zuo-无限滚动Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FBD1B5E2D3800E2F997 /* Zuo_____Tests.m */,
+				A39B5FBB1B5E2D3800E2F997 /* Supporting Files */,
+			);
+			path = "Zuo-无限滚动Tests";
+			sourceTree = "<group>";
+		};
+		A39B5FBB1B5E2D3800E2F997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FBC1B5E2D3800E2F997 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39B5FC71B5E2D9700E2F997 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FC81B5E2D9700E2F997 /* controller */,
+				A39B5FCD1B5E2D9700E2F997 /* MJExtension */,
+				A39B5FDF1B5E2D9700E2F997 /* model */,
+				A39B5FE21B5E2D9700E2F997 /* other */,
+				A39B5FE81B5E2D9700E2F997 /* view */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		A39B5FC81B5E2D9700E2F997 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FC91B5E2D9700E2F997 /* ZXRNewsViewController.h */,
+				A39B5FCA1B5E2D9700E2F997 /* ZXRNewsViewController.m */,
+				A39B5FCB1B5E2D9700E2F997 /* ZXRViewController.h */,
+				A39B5FCC1B5E2D9700E2F997 /* ZXRViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A39B5FCD1B5E2D9700E2F997 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FCE1B5E2D9700E2F997 /* MJConst.h */,
+				A39B5FCF1B5E2D9700E2F997 /* MJConst.m */,
+				A39B5FD01B5E2D9700E2F997 /* MJExtension.h */,
+				A39B5FD11B5E2D9700E2F997 /* MJFoundation.h */,
+				A39B5FD21B5E2D9700E2F997 /* MJFoundation.m */,
+				A39B5FD31B5E2D9700E2F997 /* MJProperty.h */,
+				A39B5FD41B5E2D9700E2F997 /* MJProperty.m */,
+				A39B5FD51B5E2D9700E2F997 /* MJType.h */,
+				A39B5FD61B5E2D9700E2F997 /* MJType.m */,
+				A39B5FD71B5E2D9700E2F997 /* NSObject+MJCoding.h */,
+				A39B5FD81B5E2D9700E2F997 /* NSObject+MJCoding.m */,
+				A39B5FD91B5E2D9700E2F997 /* NSObject+MJKeyValue.h */,
+				A39B5FDA1B5E2D9700E2F997 /* NSObject+MJKeyValue.m */,
+				A39B5FDB1B5E2D9700E2F997 /* NSObject+MJProperty.h */,
+				A39B5FDC1B5E2D9700E2F997 /* NSObject+MJProperty.m */,
+				A39B5FDD1B5E2D9700E2F997 /* NSString+MJExtension.h */,
+				A39B5FDE1B5E2D9700E2F997 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		A39B5FDF1B5E2D9700E2F997 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FE01B5E2D9700E2F997 /* ZXRNews.h */,
+				A39B5FE11B5E2D9700E2F997 /* ZXRNews.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A39B5FE21B5E2D9700E2F997 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FE31B5E2D9700E2F997 /* AppDelegate.h */,
+				A39B5FE41B5E2D9700E2F997 /* AppDelegate.m */,
+				A39B5FE51B5E2D9700E2F997 /* main.m */,
+				A39B5FE61B5E2D9700E2F997 /* UIView+ZXRExtension.h */,
+				A39B5FE71B5E2D9700E2F997 /* UIView+ZXRExtension.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		A39B5FE81B5E2D9700E2F997 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A39B5FE91B5E2D9700E2F997 /* ZXRCollectionViewCell.h */,
+				A39B5FEA1B5E2D9700E2F997 /* ZXRCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39B5F9D1B5E2D3700E2F997 /* Zuo-无限滚动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39B5FC11B5E2D3800E2F997 /* Build configuration list for PBXNativeTarget "Zuo-无限滚动" */;
+			buildPhases = (
+				A39B5F9A1B5E2D3700E2F997 /* Sources */,
+				A39B5F9B1B5E2D3700E2F997 /* Frameworks */,
+				A39B5F9C1B5E2D3700E2F997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zuo-无限滚动";
+			productName = "Zuo-无限滚动";
+			productReference = A39B5F9E1B5E2D3700E2F997 /* Zuo-无限滚动.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A39B5FB61B5E2D3700E2F997 /* Zuo-无限滚动Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39B5FC41B5E2D3800E2F997 /* Build configuration list for PBXNativeTarget "Zuo-无限滚动Tests" */;
+			buildPhases = (
+				A39B5FB31B5E2D3700E2F997 /* Sources */,
+				A39B5FB41B5E2D3700E2F997 /* Frameworks */,
+				A39B5FB51B5E2D3700E2F997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A39B5FB91B5E2D3700E2F997 /* PBXTargetDependency */,
+			);
+			name = "Zuo-无限滚动Tests";
+			productName = "Zuo-无限滚动Tests";
+			productReference = A39B5FB71B5E2D3700E2F997 /* Zuo-无限滚动Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39B5F961B5E2D3700E2F997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zuo;
+				TargetAttributes = {
+					A39B5F9D1B5E2D3700E2F997 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A39B5FB61B5E2D3700E2F997 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A39B5F9D1B5E2D3700E2F997;
+					};
+				};
+			};
+			buildConfigurationList = A39B5F991B5E2D3700E2F997 /* Build configuration list for PBXProject "Zuo-无限滚动" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A39B5F951B5E2D3700E2F997;
+			productRefGroup = A39B5F9F1B5E2D3700E2F997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39B5F9D1B5E2D3700E2F997 /* Zuo-无限滚动 */,
+				A39B5FB61B5E2D3700E2F997 /* Zuo-无限滚动Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39B5F9C1B5E2D3700E2F997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39B5FAD1B5E2D3700E2F997 /* Main.storyboard in Resources */,
+				A39B5FB21B5E2D3700E2F997 /* LaunchScreen.xib in Resources */,
+				A39B5FAF1B5E2D3700E2F997 /* Images.xcassets in Resources */,
+				A39B5FFB1B5E2DCD00E2F997 /* newses.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39B5FB51B5E2D3700E2F997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39B5F9A1B5E2D3700E2F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39B5FEB1B5E2D9700E2F997 /* ZXRNewsViewController.m in Sources */,
+				A39B5FF41B5E2D9700E2F997 /* NSString+MJExtension.m in Sources */,
+				A39B5FEF1B5E2D9700E2F997 /* MJProperty.m in Sources */,
+				A39B5FEC1B5E2D9700E2F997 /* ZXRViewController.m in Sources */,
+				A39B5FED1B5E2D9700E2F997 /* MJConst.m in Sources */,
+				A39B5FF21B5E2D9700E2F997 /* NSObject+MJKeyValue.m in Sources */,
+				A39B5FF11B5E2D9700E2F997 /* NSObject+MJCoding.m in Sources */,
+				A39B5FF61B5E2D9700E2F997 /* AppDelegate.m in Sources */,
+				A39B5FF01B5E2D9700E2F997 /* MJType.m in Sources */,
+				A39B5FF31B5E2D9700E2F997 /* NSObject+MJProperty.m in Sources */,
+				A39B5FF51B5E2D9700E2F997 /* ZXRNews.m in Sources */,
+				A39B5FF81B5E2D9700E2F997 /* UIView+ZXRExtension.m in Sources */,
+				A39B5FEE1B5E2D9700E2F997 /* MJFoundation.m in Sources */,
+				A39B5FF91B5E2D9700E2F997 /* ZXRCollectionViewCell.m in Sources */,
+				A39B5FF71B5E2D9700E2F997 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39B5FB31B5E2D3700E2F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39B5FBE1B5E2D3800E2F997 /* Zuo_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A39B5FB91B5E2D3700E2F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A39B5F9D1B5E2D3700E2F997 /* Zuo-无限滚动 */;
+			targetProxy = A39B5FB81B5E2D3700E2F997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A39B5FAB1B5E2D3700E2F997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39B5FAC1B5E2D3700E2F997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A39B5FB01B5E2D3700E2F997 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39B5FB11B5E2D3700E2F997 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39B5FBF1B5E2D3800E2F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A39B5FC01B5E2D3800E2F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39B5FC21B5E2D3800E2F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zuo-无限滚动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A39B5FC31B5E2D3800E2F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zuo-无限滚动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A39B5FC51B5E2D3800E2F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zuo-无限滚动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zuo-无限滚动.app/Zuo-无限滚动";
+			};
+			name = Debug;
+		};
+		A39B5FC61B5E2D3800E2F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zuo-无限滚动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zuo-无限滚动.app/Zuo-无限滚动";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39B5F991B5E2D3700E2F997 /* Build configuration list for PBXProject "Zuo-无限滚动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39B5FBF1B5E2D3800E2F997 /* Debug */,
+				A39B5FC01B5E2D3800E2F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39B5FC11B5E2D3800E2F997 /* Build configuration list for PBXNativeTarget "Zuo-无限滚动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39B5FC21B5E2D3800E2F997 /* Debug */,
+				A39B5FC31B5E2D3800E2F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A39B5FC41B5E2D3800E2F997 /* Build configuration list for PBXNativeTarget "Zuo-无限滚动Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39B5FC51B5E2D3800E2F997 /* Debug */,
+				A39B5FC61B5E2D3800E2F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39B5F961B5E2D3700E2F997 /* Project object */;
+}
